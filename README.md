@@ -60,3 +60,5 @@ $ nodemon start
 # External Links
 You can use these below link to learn more about setup your environtment
 ###### [Node Js](https://nodejs.org/en/)
+###### [Sequelize](http://docs.sequelizejs.com/en/v3/)
+###### [Express JS](https://expressjs.com/en/starter/installing.html)
