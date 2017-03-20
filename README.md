@@ -25,5 +25,38 @@ Make sure you install nodemon as well so we can easy to run this app
 $ npm install -g nodemon
 ```
 # Installing
-Now after you setup all environtment time to run this app, make sure you already download or clon this app,then
+Now after you setup all environtment time to run this app, make sure you already download or clon this app,then go to config folder then config.json. Edit this file and match to you environtment. Chage username,password,database and dialect base on your system.
+```sh
+{
+  "development": {
+    "username": "herwin",
+    "password": "prasetya89",
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "herwin.prasetyo",
+    "password": "prasetya89",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "herwin.prasetyo",
+    "password": "prasetya89",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+```
+# Running Application
+To run this app simply just type bellow command in your terminal
 
+```sh
+$ nodemon start
+```
+# External Links
+You can use these below link to learn more about setup your environtment
+-[Node Js](https://nodejs.org/en/)
